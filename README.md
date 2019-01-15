@@ -59,5 +59,5 @@ Pour utiliser Dig il faut le télécharger avant, j'ai utlisé `sudo yum install
 
 ## 2. SSH 
 
-![screen_Nmap](/Images/1.png)
+![screen_putty](putty.png)
   
