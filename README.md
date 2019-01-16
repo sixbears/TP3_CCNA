@@ -55,9 +55,25 @@ Pour utiliser Dig il faut le télécharger avant, j'ai utlisé `sudo yum install
 
 ## 1. Exploration des ports locaux
 
+`ss -man -4 - n -t`
+
 ### utilisez la commande ss pour lister les ports TCP sur lesquels la machine virtuelle écoute
 
 ## 2. SSH 
 
 ![screen_putty](putty.PNG)
-  
+
+## 3. Firewall
+
+### A. SSH :
+
+*vérifiez que votre serveur SSH écoute sur un port différent de 22
+`ss -altnp4` 
+*connectez-vous au serveur en utilisant ce port
+Fermer et rouvrir Putty en changeant le port de connexion à 2222.
+La connexion n'est pas établie car le port 2222 n'est pas autorisé. il faut ajouter le port 2222 au firewall.
+ 
+### B. netcat
+
+`yum install nmap-ncat`
+ 
