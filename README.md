@@ -83,7 +83,15 @@ Carte Ethernet Ethernet :
    Adresse IPv4. . . . . . . . . . . . . .: 192.168.112.2(préféré)
 Carte Ethernet VirtualBox Host-Only Network #2 :
    Adresse IPv4. . . . . . . . . . . . . .: 192.168.102.1(préféré)  
-![screen](1.PNG)
+![screen](2.PNG)
+
+Je ping le réseau 12 depuis ma VM2
+![screen](3.PNG)
+
+
+
+
+
    
    
 
