@@ -80,12 +80,12 @@ La connexion n'est pas établie car le port 2222 n'est pas autorisé. il faut aj
 # III. Routage statique
 
 Carte Ethernet Ethernet :
-   Adresse IPv4. . . . . . . . . . . . . .: 192.168.112.2(préféré)
-Carte Ethernet VirtualBox Host-Only Network #2 :
-   Adresse IPv4. . . . . . . . . . . . . .: 192.168.102.1(préféré)  
+   Adresse IPv4. . . . . . . . . . . . . .: 192.168.112.2(préféré)   
+Carte Ethernet VirtualBox Host-Only Network #2 :  
+   Adresse IPv4. . . . . . . . . . . . . .: 192.168.102.1(préféré)    
 ![screen](2.PNG)
 
-Je ping le réseau 12 depuis ma VM2
+Je ping le réseau 12 depuis ma VM2  
 ![screen](3.PNG)
 
 
